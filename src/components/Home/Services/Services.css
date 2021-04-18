@@ -1,0 +1,14 @@
+.services{
+    position: relative;
+    z-index: 1;
+}
+.services::before{
+    position: absolute;
+    content: "";
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: #F6F2EB;
+    opacity: .8;
+    z-index: -10;
+}
